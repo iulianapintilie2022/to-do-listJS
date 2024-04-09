@@ -1,14 +1,9 @@
 ❤️ To Do List Project only with JavaScript by Hyperskill ❤️
 
-
 -JS DOM Methods and addEventListener
-
 -JS For Loops, Conditionals, Variables, Operators, Functions, Arrays
-
 -CSS PseudoClasses, Properties, Selectors
-
 -HTML Element Creation, Design
-
 -LocalStorage Get and Post
 
 
