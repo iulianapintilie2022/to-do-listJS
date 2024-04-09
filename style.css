@@ -1,4 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+
+* body{
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: white;
+    color: #3B4069;
+}
+
 .checked{
-    background-color: red;
     text-decoration: line-through;
 }
+.app-title{
+    text-align: center;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 600;
+}
+.row{
+    text-align: center;
+}
+.list-container{
+    text-align: center;
+    align-self: center;
+}
+#input-task{
+    align-self: center;
+    border: 3px solid #3B4069;
+    border-radius: 5px;
+    color: #3B4069;
+    height: 30px;
+    width: 250px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 6px;
+    padding-left: 12px;
+
+}
+#add-task-button{
+    font-family: "Advent Pro", sans-serif;
+    display: inline-block;
+    align-self: center;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color:#3B4069;
+    box-shadow: inset 0 0 0 2px #3B4069;
+    background-color: transparent;
+    height: 48px;
+}
+
+#add-task-button:hover{
+    color: #fff;
+    background-color: #3B4069;
+}
+ul{
+    list-style-type: none;
+}
+li {
+    text-align: center;
+    align-self: center;
+    color: #3B4069;
+    font-size: 16px;
+    padding: 5px;
+}
+.checkbox{
+    margin: 10px
+}
+.delete-btn {
+    margin: 10px;
+    height: 40px;
+    background-color: white;
+    padding: 0 24px 0 16px;
+    border: 1px solid #FF593E;
+    letter-spacing: .25px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #FF593E;
+}
+
+.delete-btn:hover {
+            background-color: #FF593E;
+            color: white;
+}
+
+
+.delete-btn:focus {
+            box-shadow: 0 0 0 rgba(255, 0, 0, 0.54);
+        }
+span{
+    margin: 20px;
+}
+
